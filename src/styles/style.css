@@ -1,0 +1,63 @@
+html {
+  font-family: Cinzel, serif;
+  font-size: 16px;
+  line-height: 27px;
+  color: #161616;
+}
+
+body {
+  margin: 0;
+}
+
+/* #header */
+.header {
+  box-sizing: border-box;
+  padding: 24px 20px 40px;
+  height: 100vh;
+  background-image: url(../images/header-bg-mobile.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.header__icons {
+  display: flex;
+  gap: 24px;
+}
+
+.icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+.icon--phone {
+  background-image: url(../images/icons/icon-phone.png);
+}
+
+.icon--menu {
+  background-image: url(../images/icons/icon-side.png);
+}
+
+.title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1.5px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+/* #menu */
+
+/* #main */
+
+/* #footer */
